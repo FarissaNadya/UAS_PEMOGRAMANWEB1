@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Materi Pemrograman Web</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Materi Pemrograman Web</h1>
+    <nav>
+      <ul>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#js">JavaScript</a></li>
+        <li><a href="#perbedaan">Perbedaan</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="html" class="slide active">
+      <h2 class="merah">Pengenalan HTML</h2>
+      <p><strong>HTML (HyperText Markup Language)</strong> adalah bahasa markup standar yang digunakan untuk membuat struktur dasar dari halaman web. HTML menggunakan tag-tag seperti <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, dan <code>&lt;img&gt;</code> untuk menyusun elemen dalam sebuah halaman.</p>
+      <p>HTML bersifat statis, artinya tidak bisa merespons interaksi pengguna secara langsung. Tapi tanpa HTML, website tidak akan memiliki kerangka apapun.</p>
+      <p><strong>Contoh Struktur HTML:</strong></p>
+      <pre><code>&lt;html&gt;
+  &lt;head&gt;&lt;title&gt;Judul Halaman&lt;/title&gt;&lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Halo Dunia!&lt;/h1&gt;
+    &lt;p&gt;Ini paragraf pertama.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+      <p>HTML juga bisa digunakan untuk membuat tabel, form input, daftar, dan banyak lagi.</p>
+    </section>
+
+    <section id="css" class="slide">
+      <h2 class="kuning">Pengenalan CSS</h2>
+      <p><strong>CSS (Cascading Style Sheets)</strong> digunakan untuk mengatur tampilan atau gaya dari elemen HTML. CSS memisahkan antara konten (HTML) dan desain (warna, layout, font, animasi).</p>
+      <p>Dengan CSS, halaman web bisa terlihat lebih menarik dan responsif di berbagai perangkat seperti laptop, tablet, dan smartphone.</p>
+      <p><strong>Contoh Penggunaan CSS:</strong></p>
+      <pre><code>h1 {
+  color: blue;
+  font-size: 32px;
+  text-align: center;
+}</code></pre>
+      <p>CSS bisa ditulis dalam file terpisah (.css) dan dihubungkan ke HTML menggunakan <code>&lt;link&gt;</code> di bagian <code>&lt;head&gt;</code>.</p>
+    </section>
+
+    <section id="js" class="slide">
+      <h2 class="ungu">Pengenalan JavaScript</h2>
+      <p><strong>JavaScript</strong> adalah bahasa pemrograman yang digunakan untuk membuat halaman web menjadi interaktif. Dengan JavaScript, pengguna bisa berinteraksi dengan elemen di halaman seperti tombol, form, gambar, dll.</p>
+      <p>Contoh fitur yang dibuat dengan JavaScript: validasi form, animasi, kalkulator, popup, hingga aplikasi seperti game dan chat langsung.</p>
+      <p><strong>Contoh JavaScript:</strong></p>
+      <pre><code>document.getElementById("demo").innerText = "Halo dari JavaScript!";</code></pre>
+      <p>JavaScript biasanya diletakkan di file <code>.js</code> terpisah dan dihubungkan ke HTML melalui tag <code>&lt;script src="script.js"&gt;&lt;/script&gt;</code>.</p>
+    </section>
+
+    <section id="perbedaan" class="slide">
+      <h2 class="hijau">Perbedaan HTML, CSS, dan JavaScript</h2>
+      <ul>
+        <li><strong>HTML</strong> → Membuat struktur dasar halaman web (kerangka).</li>
+        <li><strong>CSS</strong> → Mengatur tampilan visual dari elemen HTML (desain).</li>
+        <li><strong>JavaScript</strong> → Menambahkan logika dan interaksi (dinamis).</li>
+      </ul>
+      <p><strong>Analogi:</strong> Jika website adalah tubuh manusia:</p>
+      <ul>
+        <li>HTML = Tulang dan organ (struktur)</li>
+        <li>CSS = Kulit dan pakaian (tampilan luar)</li>
+        <li>JavaScript = Otak dan saraf (interaksi dan reaksi)</li>
+      </ul>
+    </section>
+  </main>
+
+ <footer>
+  <div>
+    <p>&copy; 2025 Farissa Nadya</p>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
